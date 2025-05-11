@@ -4,7 +4,6 @@ return {
     version = "^1",
     opts = {
       ensure_installed = {
-        "rust-analyzer",
         "pyright",
         "clangd",
         "bash-language-server",
@@ -20,4 +19,3 @@ return {
     },
   },
 }
-
