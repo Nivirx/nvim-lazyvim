@@ -1,6 +1,7 @@
 return {
-    {
+  {
     "williamboman/mason.nvim",
+    version = "^1",
     opts = {
       ensure_installed = {
         "rust-analyzer",
@@ -19,3 +20,4 @@ return {
     },
   },
 }
+
