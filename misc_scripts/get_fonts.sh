@@ -15,7 +15,7 @@ rm -rf "$TMP_DIR_LILEX"
 mkdir -p "$TMP_DIR_LILEX"
 cd "$TMP_DIR_LILEX"
 
-wget -q https://github.com/mishamyrt/Lilex/releases/download/2.600/Lilex.zip
+wget -q https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Lilex.zip
 unzip -q Lilex.zip
 
 mkdir -p "$DEST_DIR_LILEX"
